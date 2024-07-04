@@ -1,0 +1,246 @@
+.EntdeckungvomMountEverest {
+    position: absolute;
+    bottom: -1380px;
+    left: 95px;
+    font-size: 70px;
+    color: white;
+    animation-name: EntdeckungvomMountEverestÜberschrift;
+    animation-duration: 3s;
+    animation-delay: 4s
+}
+
+@keyframes EntdeckungvomMountEverestÜberschrift {
+        from {
+            transform: translateY(1000px);
+        }
+    
+        to {
+            transform: translateY(0);
+        }
+}
+
+
+.ReinholdMessner {
+    position: absolute;
+    bottom: -300px;
+    left: 1120px;
+    font-size: 79px;
+    color: white;
+    animation-name: ReinholdÜberschrift;
+    animation-duration: 3s;
+    animation-delay: 50ms;
+}
+
+@keyframes ReinholdÜberschrift {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 58%;
+    }
+}
+
+.large-content {
+    height: 5450px;
+}
+
+.meinText {
+    position: absolute;
+    left: 70px;
+    bottom: 100px;
+    color: white;
+    font-size: 272px;
+    animation-name: textAnimation;
+    animation-duration: 1s;
+    animation-delay: 25ms;
+    animation-fill-mode: backwards;
+}
+
+@keyframes textAnimation {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('../img/hintergrund.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.overlay-image {
+    width: 200px;
+    height: 200px;
+    margin-top: -700px;
+    margin-right: 310px;
+    background-image: url('https://media.istockphoto.com/id/1169925303/de/vektor/sch%C3%B6ne-bergsilhouette-in-blauem-tageslicht-himmel-kreis-auf-wei%C3%9Fem-hintergrund-logo.jpg?s=612x612&w=0&k=20&c=dSpPaNjmZl0IV6rd4W94TwsgDFDrsbqMRQtbwi3-RbU=');
+    background-size: cover;
+}
+    */
+.box {
+    position: absolute;
+    bottom: -1160px;
+    left: 40px;
+    width: 1024px;
+    height: 1001px;
+    margin: 10px;
+    border: 10px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('../img/Reinold_messner.jpg');
+    animation-name: boxAnimation;
+    animation-duration: 2s;
+    animation-delay: 50ms;
+}
+
+.box {
+    animation-fill-mode: backwards;
+}
+
+@keyframes boxAnimation {
+    from {
+        left: 10000px;
+    }
+
+    to {
+        left: 40px;
+    }
+}
+
+
+
+.bildklasse {
+    position: relative;
+    bottom: -1160px;
+    left: 40px;
+    width: 1024px;
+    height: 1001px;
+    background-image: url('../img/Reinold_messner.jpg');
+    background-size: cover;
+}
+
+.boxA {
+    position: absolute;
+    bottom: -2240px;
+    left: 2120px;
+    width: 736px;
+    height: 1001px;
+    margin: 10px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url('../img/mnt_everest.jpg');
+    animation-name: boxAAnimation;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+
+.boxA {
+    animation-fill-mode: forwards;
+}
+
+@keyframes boxAAnimation {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 58%;
+    }
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 590px;
+    top: 650px;
+    font-size: 30px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navigation li a:hover {
+    color: rgb(137, 64, 255);
+}
+
+.boxB {
+    position: absolute;
+    bottom: -100px;
+    width: 10000px;
+    height: 1001px;
+    margin: 10px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ReinholdMessnerText {
+    position: absolute;
+    bottom: -950px;
+    left: 1120px;
+    font-size: 30px;
+    color: white;
+    animation-name: ReinoldText;
+    animation-duration: 3s;
+    animation-delay: 50ms;
+}
+
+@keyframes ReinoldText {
+    from {
+        transform: translateY(1000px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+.EndekunkVomMountewerestText{
+    position: absolute;
+    bottom: -2100px;
+    left: 95px;
+    font-size: 40px;
+    color: white;
+    animation-name: MountewerestText;
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+.box {
+    animation-fill-mode: backwards;
+}
+
+@keyframes MountewerestText {
+    from {
+        left: 1000px;
+    }
+
+    to {
+        left: 95px;
+    }
+}
